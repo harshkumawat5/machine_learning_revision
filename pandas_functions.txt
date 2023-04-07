@@ -1,0 +1,35 @@
+Pandas functions:-
+
+.DataFrame()
+.head()
+.tail()
+.info()
+.shape
+.size
+.ndim
+.describe()
+.isnull()
+.loc([])  // in this we have to pass column name 
+.iloc([]) // in this we have to pass column indexes
+.columns
+.isnull.sum()
+.sort_values(column_name,ascending=boolean_value)
+.value_counts()
+.unique()
+.replace((previous_values),(new_values))
+.fillna()
+.dropna()
+
+#groupby
+.groupby('List of columns to groupby')['columns to group_by']
+.groupby(single_column)   ----->  .get_group(condition)
+
+
+.pivot_table(data_frame,index='',values='',aggfunc= )
+
+#joins(on columns)
+pd.merge(data_frames,on='',how='')
+#how='inner','outer','left','right'
+
+#concatenation(on rows)
+pd.concat([data_frames],ignore_index=True)

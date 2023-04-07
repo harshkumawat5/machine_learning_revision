@@ -1,0 +1,25 @@
+Numpy functions:-
+
+.linspace()
+.arange()
+.size
+.shape
+.dtype()
+.ones()
+.zeros()
+.reshape()
+.around()
+.sum()
+.min()
+.max()
+.mean()
+.std()
+.ravel()
+.dot()   or .matmul()
+.sort()
+.sorted()
+.random().rand()
+.random().randn()
+.random().randint()
+.identity()
+.to_list()
